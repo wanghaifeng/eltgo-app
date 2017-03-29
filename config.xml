@@ -11,7 +11,7 @@
     <string>3.2.1</string>
   </gap:config-file>
   <gap:config-file platform="android" parent="/manifest">
-    <application android:debuggable="true"/>
+    <application android:debuggable="false"/>
   </gap:config-file>
   <gap:config-file platform="android" parent="/manifest" mode="delete">
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
